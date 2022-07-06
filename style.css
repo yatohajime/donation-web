@@ -1,7 +1,7 @@
 /* font import link */
 @import url('https://fonts.googleapis.com/css2?family=Joan&family=Poppins&display=swap'); 
 
-/* gobal style */
+/* global style */
 *{
     margin: 0;
     padding: 0;
@@ -19,22 +19,38 @@ h1 {
     line-height: 1em;
 }
 
+ul {
+    list-style: none;
+}
+
+.flex-item:hover {
+    /* background-color: #ddb5b5; */
+    border: 3px solid #ddb5b5;
+    color: #d63031;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    cursor: pointer;
+}
 
 /* utility classes */
 
-
-/* landing content area */
-.landing-content {  /* center the content */
+.center-content {  /* center the content */
     margin: 0 auto;
     width: 50%;
 }
+
+.extra-bottomSpace {
+    margin-bottom: 20em;
+}
+
+/* landing content area styling */
 
 .container {    /* setup the background image */
     background-image: url('background-images/donation4(3).jpg');
     background-repeat: no-repeat;
     padding-top: 200px;
     padding-bottom: 390px;
-    margin-bottom: 50%;
+    margin-bottom: 0.5em;
 }
 
 .container p {  /* position and style the paragraph area */
@@ -45,7 +61,7 @@ h1 {
     font-size: 2rem;
 }
 
-.btn {
+.btn {      /* setup the button */
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     font-weight: bold;
@@ -56,11 +72,41 @@ h1 {
     border: none;
     border-radius: 10px;
     position: absolute;
-    left: 35em;
+    left: 40em;
     cursor: pointer;
 }
 
 .color-block {
     display: block;
     color: #d63031;
+}
+
+/* donation area styling */
+
+.flexible-container {   /* align whole donation area to the center */
+    display: flex;
+    justify-content: space-between;
+}
+
+.motivate-donation {    /* only centering h2 & paragraph */
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.motivate-donation h2 { 
+    margin-bottom: 1em;
+}
+
+.flex-item {    /* spacing li elements & additional styling */
+    background-color: rgb(249, 246, 246);
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    padding: 1em 0.8em;
+    margin-bottom: 2em;
+}
+
+.input-styling {
+    border: none;
+    position: relative;
+    left: 24em;
 }
