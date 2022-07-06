@@ -43,6 +43,16 @@ ul {
     margin-bottom: 20em;
 }
 
+.plan-body {    /* common-styling for individual plans */
+    padding: 3em 1em;
+    margin-top: 4em;
+    margin-left: 2em;
+}
+
+.plan-body h3 {
+    margin-block: 1em;
+}
+
 /* landing content area styling */
 
 .container {    /* setup the background image */
@@ -88,15 +98,6 @@ ul {
     justify-content: space-between;
 }
 
-.motivate-donation {    /* only centering h2 & paragraph */
-    text-align: center;
-    margin-bottom: 2em;
-}
-
-.motivate-donation h2 { 
-    margin-bottom: 1em;
-}
-
 .flex-item {    /* spacing li elements & additional styling */
     background-color: rgb(249, 246, 246);
     font-family: 'Poppins', sans-serif;
@@ -105,8 +106,45 @@ ul {
     margin-bottom: 2em;
 }
 
+.first-aligning {    /* only centering h2 & paragraph */
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.first-aligning h2 { 
+    margin-bottom: 1em;
+}
+
 .input-styling {
     border: none;
     position: relative;
     left: 24em;
+}
+
+/* donation planning area styling */
+
+.second-aligning {
+    text-align: center;
+    margin-top: 14em;
+}
+
+.second-aligning h2 {
+    margin-bottom: 1em;
+}
+
+.bg-color1 {
+    background-color: #fab1a0;
+}
+
+.bg-color2 {
+    background-color: #55efc4;
+}
+
+.bg-color3 {
+    background-color: #74b9ff;
+}
+
+.resize-image {
+    width: 53px;
+    height: 53px;
 }
